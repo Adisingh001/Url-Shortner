@@ -1,0 +1,17 @@
+<div class="bgp">
+    <div class="logo">
+        URL Shortner
+    </div>
+    <div class="ip">
+        <p>Enter URL</p>
+    </div>
+    <div class="bar">
+        <input id="url" name="url" class="url" type="text" placeholder="Enter the long URL" #url>
+    </div>
+    <div class="buttons">
+        <button class="button" type="button" (click)="generateRandom()">Generate Random String</button>
+    </div>
+    <div class="bar">
+        <input id="Random" type="text" value={{randomString}}>
+    </div>
+</div>

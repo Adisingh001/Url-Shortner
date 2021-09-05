@@ -1,0 +1,63 @@
+.logo {
+    padding: auto;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 4px 3px rosybrown;
+    width: fit-content;
+    background: pink;
+}
+
+.bar {
+    margin: auto;
+    width: 570px;
+    border: 1px solid cadetblue;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px grey;
+}
+
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px white;
+    outline: none;
+}
+
+.url {
+    height: 45px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: whitesmoke;
+    border: none;
+    color: #707070;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 380px;
+    border-radius: 2px;
+    outline: solid;
+}
+
+.button:hover {
+    border: 1px solid aqua;
+    padding: 9px 19px;
+    color: grey;
+}
+
+.button:focus {
+    border: 1px solid grey;
+    padding: 9px 19px;
+}
+
+.ip {
+    text-align: center;
+    font-style: italic;
+}
